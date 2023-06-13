@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+}
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(20deg , #e3f0ed 50%,#837ece);
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    color: #837ece;
+}
+
+.curriculum{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+
+    width: 900px;
+    margin: auto;
+    
+    border-radius: 0.4em;
+
+    background-color: #ffffff;
+}
+
+header{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 1em;
+    padding: 15px;
+    border-radius: 0.4em 0.4em 0 0;
+
+    background-color: #303846;
+    color: #f8f8f8;
+}
+header h1{
+    margin-bottom: 0.7em;
+}
+header li{
+    line-height: 1.6em;
+    font-size: 11px;
+}
+
+.photo-profile{
+    width: 150px;
+    border-radius: 5px;
+}
+
+#data{
+    display: flex;
+    justify-content: space-around;
+}
+.training{
+    width: 70%;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-right: 1px solid #161616;
+}
+
+hr{
+    margin-top: 1.2em;
+    margin-bottom: 0.7em;
+}
+.personal-informations{
+    width: 30%;
+    
+    padding: 15px;
+}
+
+.personal-informations h2{
+    margin-bottom: 1em;
+    font-size: 24px;
+}
+.personal-informations h3{
+    font-size: 18px;
+}
+.personal-informations p{
+    font-size: 13px;
+}
